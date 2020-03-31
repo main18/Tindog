@@ -1,0 +1,170 @@
+/*html element*/
+body{
+    margin:0;
+    padding:0;
+    font-family: 'Raleway', sans-serif;
+}
+p{
+    color:#8f8f8f;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight:900;
+}
+
+/*Containers*/
+.container-fluid{
+    padding:7% 15%;
+}
+
+/*Sections*/
+.colored-section{
+    background-color:#FF4C68;
+}
+.white-section{
+    background-color:#fff;
+}
+
+/*Title*/
+#title .container-fluid{
+    padding:3% 15% 7%;
+}
+.iphone6{
+    transform:rotate(25deg);
+    width:60%;
+    position:absolute;
+    right:30%;
+    top:15%;
+}
+.navbar-brand{
+    font-size:2.9rem;
+    color:#fff;
+    font-weight:400;
+}
+.nav-link{
+    color:#fff;
+    font-size:1.2rem;
+    margin-left:10px;
+    margin-right:10px;
+}
+.big-heading{
+    color:#fff;
+    font-size:2.9rem;
+    margin-top:60px;
+    line-height:2;
+    margin-bottom:35px;
+}
+.btn{
+    font-size:1.3rem;
+    margin:0 10px 0 0;
+}
+
+/*Features*/
+#features{
+    text-align:center;
+    position:relative;
+    z-index:1;
+}
+.feature{
+    padding:4.5%;
+}
+.icon{
+    color:#EF8172;
+    font-size:4rem;
+    margin-bottom:20px;
+}
+.icon:hover{
+    color:#FF4D69;
+}
+.feature-title{
+    font-size:1.5rem;
+    font-weight:bold;
+}
+
+/*Testomonials*/
+#testimonials{
+    text-align:center;
+    background-color:#EF8172;
+}
+.testimonial-text{
+    line-height:1.5;
+    font-size:3rem;
+    color:#fff;
+}
+.testimonial-image{
+    width:10%;
+    border-radius: 100%;
+    margin:20px;
+}
+em{
+    color:#fff;
+    font-weight:400;
+    font-size:1.2rem;
+}
+
+/*Press*/
+#press{
+    text-align:center;
+    padding-bottom:5%;
+    background-color:#EF8172;
+}
+.press-img{
+    width:15%;
+    margin:0 20px;
+} 
+
+/*Pricing*/
+#pricing{
+    padding:100px;
+    text-align:center;
+}
+.section-heading{
+    font-size:3rem;
+    color:#212529;
+    padding-bottom:20px;
+}
+.pricing-column{
+    padding:3% 2%;
+}
+
+/*Cta*/
+#cta{
+    text-align:center;
+    padding:8%;
+    color:#fff;
+}
+.cta-heading{
+    font-size:3.5rem;
+    line-height:1.5;
+    padding-bottom:50px;
+}
+#cta .btn{
+    margin:15px;
+}
+.social-icon
+{
+    margin:10px;
+}
+
+/*Footer*/
+#footer{
+    text-align:center;
+    padding:7%;
+    color:#8f8f8f;
+}
+.social-icon{
+    color:#212529;
+}
+.copyright-text{
+    padding-top:10px;
+}
+@media (max-width:1030px)
+{
+    #title{
+        text-align:center;
+    }
+    .iphone6{
+        position:static;
+        transform:rotate(0);
+        margin-top:40px;
+    }
+}
